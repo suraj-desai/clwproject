@@ -4,7 +4,7 @@ import PlanType from './components/PlanType';
 import PlanTerm from './components/PlanTerm';
 import PaymentOption from './components/PaymentOption';
 import Account from './components/Account';
-// import Check from './components/Check';
+import CheckboxLabels from './components/CheckboxLabels';
 
 function App() {
   return (
@@ -17,8 +17,11 @@ function App() {
             <PlanType/>
             <PlanTerm/>
             <PaymentOption/>
-            <Account/>
-            {/* <Check/> */}
+            <div>
+              <Account/>
+              <CheckboxLabels/>
+            </div>
+            
         </div>
       </div>
       <div>
