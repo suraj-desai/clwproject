@@ -4,18 +4,25 @@ import PlanType from './components/PlanType';
 import PlanTerm from './components/PlanTerm';
 import PaymentOption from './components/PaymentOption';
 import Account from './components/Account';
+// import Check from './components/Check';
 
 function App() {
   return (
     <div className="App">
-      <div className="planType">
-        <h2>
-          Savings Plan Parameters.
-        </h2>
+      <div className="plan">
+        <p>
+          Savings Plan Parameters
+        </p>
+        <div className="plan__parameters">
             <PlanType/>
             <PlanTerm/>
             <PaymentOption/>
             <Account/>
+            {/* <Check/> */}
+        </div>
+      </div>
+      <div>
+
       </div>
     </div>
   );

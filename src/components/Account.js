@@ -20,7 +20,7 @@ const accounts = [
 const useStyles = makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
-      margin: theme.spacing(2),
+      margin: theme.spacing(0),
       width: '30ch',
     },
   },
