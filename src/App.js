@@ -6,6 +6,7 @@ import PaymentOption from './components/PaymentOption';
 import Account from './components/Account';
 import CheckboxLabels from './components/CheckboxLabels';
 import Graph from './components/Graph';
+import Filters from './components/Filters'
 
 function App() {
   return (
@@ -25,11 +26,26 @@ function App() {
         </div>
       </section>
       <section className="Graph">
-        <p>
-          Monthly Savings Vs Hourly Commitment
-        </p>
-        <div className="lineGraph">
-          <Graph/>
+        <div>
+          <p>
+            Monthly Savings Vs Hourly Commitment
+          </p>
+          <div className="lineGraph">
+            <Graph/>
+            <div className="filters">
+              <p>
+                Filters by recent days:
+              </p>
+              <div className="filterDays">
+               <Filters/>
+              </div>
+            
+            </div>
+          
+          </div>
+        </div>
+        <div className="graphInfo">
+          Hello
         </div>
       </section>
       

@@ -14,7 +14,6 @@ const state = {
            '$27.70','$28.71','$29.72','$30.74'],
   datasets: [
     {
-
       fill: false,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -73,3 +72,4 @@ export default class Graph extends React.Component {
     );
   }
 }
+
