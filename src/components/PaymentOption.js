@@ -6,7 +6,7 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 
 export default function PaymentOption() {
-  const [value, setValue] = React.useState('up');
+  const [value, setValue] = React.useState('all');
   const handleChange = (event) => {
     setValue(event.target.value);
   };
@@ -15,10 +15,12 @@ export default function PaymentOption() {
     <FormControl component="fieldset">
       <FormLabel component="legend">Payment Option</FormLabel>
       <RadioGroup aria-label="paymentOption" name="paymentOption" value={value} onChange={handleChange}>
-        <FormControlLabel value="all" control={<Radio />} label="All Upfront" />
-        <FormControlLabel value="partial" control={<Radio />} label="Partial Upfront" />
-        <FormControlLabel value="no" control={<Radio />} label="No Upfront" />
+        <FormControlLabel value="all" control={<Radio color="primary" />} label="All Upfront" />
+        <FormControlLabel value="partial" control={<Radio color="primary" />} label="Partial Upfront" />
+        <FormControlLabel value="no" control={<Radio color="primary"/>} label="No Upfront" />
       </RadioGroup>
     </FormControl>
   );
 }
+
+

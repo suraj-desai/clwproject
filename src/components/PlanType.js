@@ -15,8 +15,8 @@ export default function PlanType() {
     <FormControl component="fieldset">
       <FormLabel component="legend">Savings Plan Type</FormLabel>
       <RadioGroup aria-label="planType" name="palnType" value={value} onChange={handleChange}>
-        <FormControlLabel value="computeSp" control={<Radio />} label="compute savings plan" />
-        <FormControlLabel value="instanceSp" control={<Radio />} label="EC2 instance savings plans" />
+        <FormControlLabel value="computeSp" control={<Radio color="primary"/>} label="compute savings plan" />
+        <FormControlLabel value="instanceSp" control={<Radio color="primary"/>} label="EC2 instance savings plans" />
       </RadioGroup>
     </FormControl>
   );

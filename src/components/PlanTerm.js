@@ -15,8 +15,8 @@ export default function PlanTerm() {
     <FormControl component="fieldset">
       <FormLabel component="legend">Savings Plan Term</FormLabel>
       <RadioGroup aria-label="planTerm" name="planTerm" value={value} onChange={handleChange}>
-        <FormControlLabel value="1" control={<Radio />} label="1-Year" />
-        <FormControlLabel value="3" control={<Radio />} label="3-Year" />
+        <FormControlLabel value="1" control={<Radio color="primary" />} label="1-Year" />
+        <FormControlLabel value="3" control={<Radio color="primary" />} label="3-Year" />
       </RadioGroup>
     </FormControl>
   );
