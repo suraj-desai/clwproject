@@ -27,7 +27,7 @@ function App() {
         </div>
       </section>
       <section className="graph">
-        <div className="graphleft">
+        <div className="graphLeft">
           <p>
             Monthly Savings Vs Hourly Commitment
           </p>

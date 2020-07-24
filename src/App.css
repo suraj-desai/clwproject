@@ -1,11 +1,12 @@
 .app{
+  margin-top: 3%;
   font-size: medium;
   font-weight: 300;
   font-family: sans-serif;
 }
 .plan{
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .plan__parameters{
@@ -16,48 +17,48 @@
 
 .graph{
   display: flex;
-  margin-top: 40px;
-  margin-left: 30px;
+  margin-top: 2%;
+  margin-left: 3%;
   width:100%;
   height:100%;
 }
 .graphLeft{
-  flex:1 1 auto;
+  width:50%;
 }
 .graphInfo{
   width:20%;
-  /* flex:1 1 auto; */
-  margin-left: 50px;
+  height:100%;
+  margin-left: 4%;
   margin-top: 5%;
 }
 
 .lineGraph{
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 3%;
+  margin-top: 4%;
 }
 
 .filters{
   display: flex;
   flex-direction: row;
-  margin-left: 130px;
+  margin-left: 18%;
 }
 
 .filterDays{
   margin-top: 15px;
-  margin-left: 0px;
+  margin-left: 3%;
 }
 
 .recommend{
   background-color:#F5F5F5;
-  margin-top: 3%;
-  margin-bottom: 4%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 .expected{
   display: inline;
   /* margin-top: 2%; */
 }
 .estimated{
-  margin-top: 3%;
+  margin-top: 8%;
 }
 .helper{
   margin-top: 1%;
@@ -73,4 +74,12 @@
   margin-bottom: 1%;
   text-decoration: underline;
   font-size: x-small;
+}
+.icon{
+  display: flex;
+}
+
+.iconPic{
+  margin-left: 0%;
+  padding-top: 4%;
 }
